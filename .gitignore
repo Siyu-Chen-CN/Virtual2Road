@@ -1,2 +1,4 @@
-.venv
-tests
+.venv/
+__pycache__/
+*.py[cod]
+build/

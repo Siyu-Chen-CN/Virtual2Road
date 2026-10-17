@@ -4,9 +4,9 @@
 Python 3.9+; install dependency: python -m pip install fitdecode==0.11.0
 
 Examples:
-    python fit2road.py test.fit
-    python fit2road.py "*.fit" --output-dir road_files
-    python fit2road.py test.fit --inspect
+    python src/fit2road.py test.fit
+    python src/fit2road.py "*.fit" --output-dir road_files
+    python src/fit2road.py test.fit --inspect
 
 Only existing fields in cycling session/lap/sport/split/segment messages
 are edited. Missing or invalid sport values in ancillary messages inherit
