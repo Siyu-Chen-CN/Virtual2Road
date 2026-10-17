@@ -19,19 +19,19 @@
 先检查原文件的 CRC 和运动分类（不写入文件）：
 
 ```powershell
-.\.venv\Scripts\python.exe fit_to_road.py "ride.fit" --inspect
+.\.venv\Scripts\python.exe fit2road.py "ride.fit" --inspect
 ```
 
 转换单个文件，生成同目录下的 `ride_road.fit`：
 
 ```powershell
-.\.venv\Scripts\python.exe fit_to_road.py "ride.fit"
+.\.venv\Scripts\python.exe fit2road.py "ride.fit"
 ```
 
 批量处理并将结果集中写入指定目录：
 
 ```powershell
-.\.venv\Scripts\python.exe fit_to_road.py "*.fit" --output-dir road_files
+.\.venv\Scripts\python.exe fit2road.py "*.fit" --output-dir road_files
 ```
 
 - 原文件不被覆盖，已有的输出文件也不被覆盖。
