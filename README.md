@@ -54,5 +54,3 @@
 .\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 ```
 
-测试使用构造的 FIT 数据验证分类修复、CRC、原始字节保留及命令行行为。
-尚需使用实际 Edge 导出的 FIT 文件进行平台导入验证。
